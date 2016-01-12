@@ -1,0 +1,393 @@
+
+[info 2014/12/04 09:32:16.931 SGT Locator <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+  
+    Copyright (C) 1997-2014 Pivotal Software, Inc. All rights reserved. This
+    product is protected by U.S. and international copyright and intellectual
+    property laws. Pivotal products are covered by one or more patents listed
+    at http://www.gopivotal.com/patents.  Pivotal is a registered trademark
+    of trademark of GoPivotal, Inc. in the United States and/or other
+    jurisdictions.  All other marks and names mentioned herein may be
+    trademarks of their respective companies.
+  
+  ---------------------------------------------------------------------------
+  Java version:   7.0.2 build 45797 02/01/2014 14:23:33 PST javac 1.6.0_26
+  Native version: native code unavailable
+  Source revision: 45797
+  Source repository: gemfire/branches/gemfire702X_maint
+  Running on: wangyis-MacBook-Pro.local/10.43.253.10, 8 cpu(s), x86_64 Mac OS X 10.9.5
+  Process ID: 1662
+  User: wangyi
+  Current dir: /Users/wangyi/vFabric/RTI-demo/streaming-spring/log/locator
+  Home dir: /Users/wangyi
+  Command Line Parameters:
+    -Xms128m
+    -Xmx128m
+    -Dgemfire.jmx-manager-http-port=9090
+    -Dgemfire.distributed-system-id=10
+    -Djava.net.preferIPv4Stack=true
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/gemfire.jar
+    /Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/antlr.jar
+    /Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/gfsh-dependencies.jar
+    /Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/pulse-dependencies.jar
+    /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/lib/tools.jar
+  Library Path:
+    /Users/wangyi/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      Locator.forceLocatorDMType = true
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      gemfire.distributed-system-id = 10
+      gemfire.jmx-manager-http-port = 9090
+      gemfire.launcher.registerSignalHandlers = true
+      gopherProxySet = false
+      http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 51.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/wangyi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/mx/yqpsptk15_zdpp0n12zkynm00000gn/T/
+      java.net.preferIPv4Stack = true
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.7.0_55-b13
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.7
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.7.0_55
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.7
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 24.55-b03
+      line.separator = 
+  
+      os.version = 10.9.5
+      path.separator = :
+      socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = com.gemstone.gemfire.distributed.LocatorLauncher start Locator --port=41111 --redirect-output
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = US
+      user.language = en
+      user.timezone = Asia/Singapore
+  ---------------------------------------------------------------------------
+  
+
+[info 2014/12/04 09:32:16.973 SGT Locator <main> tid=0x1] Starting peer location for Distribution Locator on wangyis-MacBook-Pro.local[41111]
+
+[info 2014/12/04 09:32:16.977 SGT Locator <main> tid=0x1] Starting Distribution Locator on wangyis-MacBook-Pro.local[41111]
+
+[info 2014/12/04 09:32:17.984 SGT Locator <main> tid=0x1] Starting distributed system
+
+[config 2014/12/04 09:32:17.986 SGT Locator <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  distributed-system-id=10
+  jmx-manager-http-port=9090
+  ### GemFire Properties defined with api ###
+  cache-xml-file=
+  locators=10.43.253.10[41111]
+  log-file=/Users/wangyi/vFabric/RTI-demo/streaming-spring/log/locator/Locator.log
+  name=Locator
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=.
+  disable-tcp=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-network-partition-detection=false
+  enable-time-statistics=false
+  enforce-unique-host=false
+  groups=
+  jmx-manager=true
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl=false
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  license-application-cache=
+  license-data-management=
+  license-server-timeout=10000
+  license-working-dir=
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=10000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-port=0
+  memcached-protocol=ASCII
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  server-bind-address=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-enabled=false
+  ssl-protocols=any
+  ssl-require-authentication=true
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  writable-working-dir=
+  
+
+[info 2014/12/04 09:32:18.076 SGT Locator <main> tid=0x1] GemFire P2P Listener started on  tcp:///10.43.253.10:51007
+
+[config 2014/12/04 09:32:25.168 SGT Locator <main> tid=0x1] This member, wangyis-MacBook-Pro(Locator:1662):30335, is becoming group coordinator.
+
+[info 2014/12/04 09:32:25.172 SGT Locator <main> tid=0x1] Entered into membership in group GF70 with ID wangyis-MacBook-Pro(Locator:1662:locator):30335.
+
+[info 2014/12/04 09:32:25.172 SGT Locator <main> tid=0x1] Starting DistributionManager wangyis-MacBook-Pro(Locator:1662:locator):30335. 
+
+[info 2014/12/04 09:32:25.173 SGT Locator <main> tid=0x1] Initial (membershipManager) view =  [wangyis-MacBook-Pro(Locator:1662:locator):30335]
+
+[info 2014/12/04 09:32:25.173 SGT Locator <main> tid=0x1] Admitting member <wangyis-MacBook-Pro(Locator:1662:locator):30335>. Now there are 1 non-admin member(s).
+
+[info 2014/12/04 09:32:25.178 SGT Locator <main> tid=0x1] Did not hear back from any other system. I am the first one.
+
+[info 2014/12/04 09:32:25.179 SGT Locator <main> tid=0x1] DistributionManager wangyis-MacBook-Pro(Locator:1662:locator):30335 started on wangyis-MacBook-Pro.local[41111]. There were 0 other DMs. others: []   (locator)
+
+[info 2014/12/04 09:32:25.190 SGT Locator <Thread-20 StatSampler> tid=0x36] Disabling statistic archival.
+
+[info 2014/12/04 09:32:25.190 SGT Locator <main> tid=0x1] Creating cache for locator.
+
+[info 2014/12/04 09:32:25.336 SGT Locator <main> tid=0x1] Initializing region _monitoringRegion_10.43.253.10<v0>30335
+
+[info 2014/12/04 09:32:26.090 SGT Locator <main> tid=0x1] Locator started on  10.43.253.10[41111]
+
+[info 2014/12/04 09:32:26.090 SGT Locator <main> tid=0x1] Starting server location for Distribution Locator on wangyis-MacBook-Pro.local[41111]
+Locator in /Users/wangyi/vFabric/RTI-demo/streaming-spring/log/locator on 10.43.253.10[41111] as Locator is currently online.
+Process ID: 1662
+Uptime: 9 seconds
+GemFire Version: 7.0.2
+Java Version: 1.7.0_55
+Log File: /Users/wangyi/vFabric/RTI-demo/streaming-spring/log/locator/Locator.log
+JVM Arguments: -Xms128m -Xmx128m -Dgemfire.jmx-manager-http-port=9090 -Dgemfire.distributed-system-id=10 -Djava.net.preferIPv4Stack=true -Dgemfire.launcher.registerSignalHandlers=true -Djava.awt.headless=true -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+Class-Path: /Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/gemfire.jar:/Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/antlr.jar:/Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/gfsh-dependencies.jar:/Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/pulse-dependencies.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/lib/tools.jar
+[info 2014/12/04 09:32:26.635 SGT Locator <locator request thread[1]> tid=0x23] Attempting to start http service with port=9090 bind-address=
+
+[info 2014/12/04 09:32:26.945 SGT Locator <locator request thread[1]> tid=0x23] (tid=35 msgId=3) Initializing ProtocolHandler ["http-bio-9090"]
+
+[info 2014/12/04 09:32:26.962 SGT Locator <locator request thread[1]> tid=0x23] (tid=35 msgId=4) Starting service Tomcat
+
+[info 2014/12/04 09:32:26.962 SGT Locator <locator request thread[1]> tid=0x23] (tid=35 msgId=5) Starting Servlet Engine: Apache Tomcat/7.0.30
+
+[info 2014/12/04 09:32:27.224 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=6) No global web.xml found
+
+[info 2014/12/04 09:32:30.608 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=7) No Spring WebApplicationInitializer types detected on classpath
+
+[info 2014/12/04 09:32:30.630 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=8) Initializing Spring root WebApplicationContext
+
+[info 2014/12/04 09:32:30.630 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=9) Root WebApplicationContext: initialization started
+
+[info 2014/12/04 09:32:30.687 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=10) Refreshing Root WebApplicationContext: startup date [Thu Dec 04 09:32:30 SGT 2014]; root of context hierarchy
+
+[info 2014/12/04 09:32:30.729 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=11) Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-config.xml]
+
+[info 2014/12/04 09:32:30.886 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=12) You are running with Spring Security Core 3.1.1.RELEASE
+
+[info 2014/12/04 09:32:30.886 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=13) Spring Security 'config' module version is 3.1.1.RELEASE
+
+[info 2014/12/04 09:32:30.942 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=14) Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 300, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 800, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1200, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1900, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2000]
+
+[info 2014/12/04 09:32:30.976 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=15) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@173cd2cd: defining beans [org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,authenticationFailureHandler,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+
+[info 2014/12/04 09:32:31.108 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=16) Loading properties file from class path resource [pulse-users.properties]
+
+[info 2014/12/04 09:32:31.179 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=17) Creating filter chain: org.springframework.security.web.util.AnyRequestMatcher@1, [org.springframework.security.web.context.SecurityContextPersistenceFilter@24ec845e, org.springframework.security.web.authentication.logout.LogoutFilter@23e64a42, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64154577, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3083baf6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1867855c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34646788, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2bc92c97, org.springframework.security.web.session.SessionManagementFilter@248e83f6, org.springframework.security.web.access.ExceptionTranslationFilter@8799e3a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6882f62e]
+
+[info 2014/12/04 09:32:31.190 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=18) Checking whether login URL '/Login.html' is accessible with your configuration
+
+[info 2014/12/04 09:32:31.196 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=19) Root WebApplicationContext: initialization completed in 566 ms
+
+[info 2014/12/04 09:32:31.200 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=20) 
+  [INFO 2014/12/04 09:32:31.196 SGT localhost-startStop-1 tid=0x43] (msgTID= msgSN=) [PULSE]
+  [com.vmware.gemfire.tools.pulse.internal.PulseAppListener]
+  Context Initialized.. 
+  
+  [INFO 2014/12/04 09:32:31.196 SGT localhost-startStop-1 tid=0x43] (msgTID= msgSN=) [PULSE]
+  [com.vmware.gemfire.tools.pulse.internal.PulseAppListener]
+  Could not read Properties File.. 
+  
+  [INFO 2014/12/04 09:32:31.197 SGT localhost-startStop-1 tid=0x43] (msgTID= msgSN=) [PULSE]
+  [com.vmware.gemfire.tools.pulse.internal.PulseAppListener]
+  Checking whether log configurations provided through system properties..
+  
+  [INFO 2014/12/04 09:32:31.197 SGT localhost-startStop-1 tid=0x43] (msgTID= msgSN=) [PULSE]
+  [com.vmware.gemfire.tools.pulse.internal.PulseAppListener]
+  Some/All Log properties provided through system properties
+  
+
+[info 2014/12/04 09:32:31.201 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=21) Checking whether Pulse is running in embedded mode..
+
+[info 2014/12/04 09:32:31.201 SGT Locator <localhost-startStop-1> tid=0x43] (tid=67 msgId=22) Pulse is running in Embedded Mode..
+
+[info 2014/12/04 09:32:31.227 SGT Locator <locator request thread[1]> tid=0x23] (tid=35 msgId=23) Starting ProtocolHandler ["http-bio-9090"]
+
+[info 2014/12/04 09:32:31.231 SGT Locator <locator request thread[1]> tid=0x23] Starting jmx manager agent on port 1099
+
+[info 2014/12/04 09:32:31.235 SGT Locator <locator request thread[1]> tid=0x23] Finished starting jmx manager agent.
+
+[config 2014/12/04 09:32:33.885 SGT Locator <ViewHandler> tid=0x4e] Membership: sending new view [[wangyis-MacBook-Pro(Locator:1662)<v0>:30335|1] [wangyis-MacBook-Pro(Locator:1662)<v0>:30335/51007, wangyis-MacBook-Pro(server2:1671)<v1>:17883/51024, wangyis-MacBook-Pro(server1:1670)<v1>:30958/51023]] (3 mbrs)
+  
+
+[config 2014/12/04 09:32:33.888 SGT Locator <UDP Incoming Message Handler> tid=0x1d] Membership: received new view  [wangyis-MacBook-Pro(Locator:1662)<v0>:30335|1] [wangyis-MacBook-Pro(Locator:1662)<v0>:30335/51007, wangyis-MacBook-Pro(server2:1671)<v1>:17883/51024, wangyis-MacBook-Pro(server1:1670)<v1>:30958/51023]
+
+[info 2014/12/04 09:32:33.888 SGT Locator <UDP Incoming Message Handler> tid=0x1d] Membership: lead member is now wangyis-MacBook-Pro(server2:1671)<v1>:17883
+
+[info 2014/12/04 09:32:33.893 SGT Locator <View Message Processor> tid=0x50] Admitting member <wangyis-MacBook-Pro(server2:1671)<v1>:17883>. Now there are 2 non-admin member(s).
+
+[info 2014/12/04 09:32:33.893 SGT Locator <View Message Processor> tid=0x50] Admitting member <wangyis-MacBook-Pro(server1:1670)<v1>:30958>. Now there are 3 non-admin member(s).
+
+[info 2014/12/04 09:32:33.897 SGT Locator <pool-1-thread-1> tid=0x51] Initializing region _monitoringRegion_10.43.253.10<v1>17883
+
+[info 2014/12/04 09:32:33.985 SGT Locator <pool-1-thread-1> tid=0x51] Initializing region _notificationRegion_10.43.253.10<v1>17883
+
+[info 2014/12/04 09:32:33.990 SGT Locator <pool-1-thread-2> tid=0x5b] Initializing region _monitoringRegion_10.43.253.10<v1>30958
+
+[info 2014/12/04 09:32:33.992 SGT Locator <pool-1-thread-2> tid=0x5b] Initializing region _notificationRegion_10.43.253.10<v1>30958
+
+[info 2014/12/04 09:35:13.858 SGT Locator <http-bio-9090-exec-2> tid=0x63] (tid=99 msgId=25) Creating New Cluster Thread... : localhost:1099
+
+[warning 2014/12/04 12:53:45.317 SGT Locator <Thread-20 StatSampler> tid=0x36] Statistics sampling thread detected a wakeup delay of 4,442 ms, indicating a possible resource issue. Check the GC, memory, and CPU statistics.
+
+[warning 2014/12/04 14:20:31.013 SGT Locator <Thread-20 StatSampler> tid=0x36] Statistics sampling thread detected a wakeup delay of 5,199,695 ms, indicating a possible resource issue. Check the GC, memory, and CPU statistics.
+
+[warning 2014/12/04 14:23:16.136 SGT Locator <Thread-20 StatSampler> tid=0x36] Statistics sampling thread detected a wakeup delay of 45,105 ms, indicating a possible resource issue. Check the GC, memory, and CPU statistics.
+
+[info 2014/12/04 14:26:33.566 SGT Locator <Pooled High Priority Message Processor 2> tid=0x5a] Member at wangyis-MacBook-Pro(server2:1671)<v1>:17883 gracefully left the distributed cache: shutdown message received
+
+[info 2014/12/04 14:26:33.567 SGT Locator <Pooled High Priority Message Processor 3> tid=0x8d] Member at wangyis-MacBook-Pro(server1:1670)<v1>:30958 gracefully left the distributed cache: shutdown message received
+
+[info 2014/12/04 14:26:33.669 SGT Locator <UDP Incoming Message Handler> tid=0x1d] Received Suspect notification for member(s) [wangyis-MacBook-Pro(server2:1671)<v1>:17883] from wangyis-MacBook-Pro(Locator:1662)<v0>:30335. 
+
+[info 2014/12/04 14:26:33.672 SGT Locator <FD_SOCK Ping thread> tid=0x4f] suspecting member wangyis-MacBook-Pro(server1:1670)<v1>:30958
+
+[info 2014/12/04 14:26:33.672 SGT Locator <FD_SOCK Ping thread> tid=0x4f] sending suspect message with view [wangyis-MacBook-Pro(Locator:1662)<v0>:30335|1] [wangyis-MacBook-Pro(Locator:1662)<v0>:30335/51007, wangyis-MacBook-Pro(server2:1671)<v1>:17883/51024, wangyis-MacBook-Pro(server1:1670)<v1>:30958/51023]
+
+[info 2014/12/04 14:26:33.673 SGT Locator <UDP Incoming Message Handler> tid=0x1d] Received Suspect notification for member(s) [wangyis-MacBook-Pro(server1:1670)<v1>:30958] from wangyis-MacBook-Pro(Locator:1662)<v0>:30335.  Reason=Could not set up ping socket
+
+[info 2014/12/04 14:26:33.673 SGT Locator <UDP Incoming Message Handler> tid=0x1d] Received Suspect notification for member(s) [wangyis-MacBook-Pro(server2:1671)<v1>:17883, wangyis-MacBook-Pro(server1:1670)<v1>:30958] from wangyis-MacBook-Pro(Locator:1662)<v0>:30335. 
+
+[config 2014/12/04 14:26:33.821 SGT Locator <ViewHandler> tid=0x4e] Membership: sending new view [[wangyis-MacBook-Pro(Locator:1662)<v0>:30335|2] [wangyis-MacBook-Pro(Locator:1662)<v0>:30335/51007]] (1 mbrs)
+  
+
+[config 2014/12/04 14:26:33.821 SGT Locator <ViewHandler> tid=0x4e] attempting to contact members that did not respond to view preparation
+
+[config 2014/12/04 14:26:33.821 SGT Locator <ViewHandler> tid=0x4e] able to connect to failure detection port of wangyis-MacBook-Pro(server2:1671)<v1>:17883: 8,778
+
+[config 2014/12/04 14:26:33.822 SGT Locator <UDP Incoming Message Handler> tid=0x1d] Membership: received new view  [wangyis-MacBook-Pro(Locator:1662)<v0>:30335|2] [wangyis-MacBook-Pro(Locator:1662)<v0>:30335/51007]
+
+[info 2014/12/04 14:26:38.669 SGT Locator <VERIFY_SUSPECT.TimerThread> tid=0x8e] wangyis-MacBook-Pro(Locator:1662)<v0>:30335: No suspect verification response received from wangyis-MacBook-Pro(server2:1671)<v1>:17883 in 5000 milliseconds: I believe it is gone.
+
+[info 2014/12/04 14:26:38.674 SGT Locator <VERIFY_SUSPECT.TimerThread> tid=0x8e] wangyis-MacBook-Pro(Locator:1662)<v0>:30335: No suspect verification response received from wangyis-MacBook-Pro(server1:1670)<v1>:30958 in 5001 milliseconds: I believe it is gone.
+
+[info 2014/12/04 14:26:38.813 SGT Locator <Thread-39> tid=0x9a] Stopping http service
+
+[info 2014/12/04 14:26:38.814 SGT Locator <Thread-39> tid=0x9a] (tid=154 msgId=27) Pausing ProtocolHandler ["http-bio-9090"]
+
+[info 2014/12/04 14:26:38.866 SGT Locator <Thread-39> tid=0x9a] (tid=154 msgId=28) Stopping service Tomcat
+
+[info 2014/12/04 14:26:43.612 SGT Locator <PULSE-localhost:1099> tid=0x6c] (tid=108 msgId=29) Stopping update thread for cluster :: localhost:1099
+
+[info 2014/12/04 14:26:44.199 SGT Locator <localhost-startStop-2> tid=0x9c] (tid=156 msgId=30) Removing Cluster Thread... : localhost:1099
+
+[info 2014/12/04 14:26:44.199 SGT Locator <localhost-startStop-2> tid=0x9c] (tid=156 msgId=31) Context Destroyed.. /pulse
+
+[info 2014/12/04 14:26:44.199 SGT Locator <localhost-startStop-2> tid=0x9c] (tid=156 msgId=32) Closing Spring root WebApplicationContext
+
+[info 2014/12/04 14:26:44.199 SGT Locator <localhost-startStop-2> tid=0x9c] (tid=156 msgId=33) Closing Root WebApplicationContext: startup date [Thu Dec 04 09:32:30 SGT 2014]; root of context hierarchy
+
+[info 2014/12/04 14:26:44.200 SGT Locator <localhost-startStop-2> tid=0x9c] (tid=156 msgId=34) Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@173cd2cd: defining beans [org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,authenticationFailureHandler,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+
+[info 2014/12/04 14:26:44.212 SGT Locator <Thread-39> tid=0x9a] (tid=154 msgId=35) Stopping ProtocolHandler ["http-bio-9090"]
+
+[info 2014/12/04 14:26:44.213 SGT Locator <Thread-39> tid=0x9a] Stopping jmx manager agent
+
+[info 2014/12/04 14:26:44.214 SGT Locator <Thread-39> tid=0x9a] GemFireCache[id = 745481049; isClosing = true; isShutDownAll = false; closingGatewayHubsByShutdownAll = false; created = Thu Dec 04 09:32:25 SGT 2014; server = false; copyOnRead = false; lockLease = 120; lockTimeout = 60]: Now closing.
+
+[info 2014/12/04 14:26:44.225 SGT Locator <Thread-39> tid=0x9a] Resetting original MemoryPoolMXBean heap threshold bytes 0 on pool PS Old Gen
+
+[info 2014/12/04 14:26:44.231 SGT Locator <com.gemstone.gemfire.distributed.internal.InternalLocator$2@67449181> tid=0x9d] Stopping Distribution Locator on wangyis-MacBook-Pro.local[41111]
+
+[info 2014/12/04 14:26:44.233 SGT Locator <Distribution Locator on wangyis-MacBook-Pro.local[41111]> tid=0xa] Closing locator's cache
+
+[info 2014/12/04 14:26:44.233 SGT Locator <com.gemstone.gemfire.distributed.internal.InternalLocator$2@67449181> tid=0x9d] Distribution Locator on wangyis-MacBook-Pro.local[41111]  is stopped
+
+[info 2014/12/04 14:26:44.234 SGT Locator <Thread-39> tid=0x9a] Shutting down DistributionManager wangyis-MacBook-Pro(Locator:1662:locator):30335. 
+
+[info 2014/12/04 14:26:44.335 SGT Locator <Thread-39> tid=0x9a] Now closing distribution for wangyis-MacBook-Pro(Locator:1662:locator):30335
+
+[config 2014/12/04 14:26:44.336 SGT Locator <Thread-39> tid=0x9a] Membership: sending new view [[wangyis-MacBook-Pro(Locator:1662)<v0>:30335|3] []] (0 mbrs)
+  
+
+[info 2014/12/04 14:26:44.338 SGT Locator <Thread-39> tid=0x9a] DistributionManager stopped in 104ms.
+
+[info 2014/12/04 14:26:44.338 SGT Locator <Thread-39> tid=0x9a] Marking DistributionManager wangyis-MacBook-Pro(Locator:1662:locator):30335 as closed.

@@ -1,0 +1,128 @@
+
+[info 2014/12/03 19:02:29.711 SGT main tid=0x1] (msgTID=1 msgSN=0) 
+  ---------------------------------------------------------------------------
+  
+    Copyright (C) 1997-2014 Pivotal Software, Inc. All rights reserved. This
+    product is protected by U.S. and international copyright and intellectual
+    property laws. Pivotal products are covered by one or more patents listed
+    at http://www.gopivotal.com/patents.  Pivotal is a registered trademark
+    of trademark of GoPivotal, Inc. in the United States and/or other
+    jurisdictions.  All other marks and names mentioned herein may be
+    trademarks of their respective companies.
+  
+  ---------------------------------------------------------------------------
+  Java version:   7.0.2 build 45797 02/01/2014 14:23:33 PST javac 1.6.0_26
+  Native version: native code unavailable
+  Source revision: 45797
+  Source repository: gemfire/branches/gemfire702X_maint
+  Running on: wangyis-MacBook-Pro.local/172.16.211.1, 8 cpu(s), x86_64 Mac OS X 10.9.5
+  Process ID: 862
+  User: wangyi
+  Current dir: /Users/wangyi/vFabric/RTI-demo/streaming-spring/bin
+  Home dir: /Users/wangyi
+  Command Line Parameters:
+    -Dgfsh=true
+  Class Path:
+    /Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/gemfire.jar
+    /Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/antlr.jar
+    /Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/gfsh-dependencies.jar
+    /Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/pulse-dependencies.jar
+    /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/tools.jar
+  Library Path:
+    /Users/wangyi/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      gfsh = true
+      gopherProxySet = false
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/wangyi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/mx/yqpsptk15_zdpp0n12zkynm00000gn/T/
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_25-b17
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_25
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.25-b02
+      line.separator = 
+  
+      os.version = 10.9.5
+      path.separator = :
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = com.gemstone.gemfire.management.internal.cli.Launcher
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.nio.ch.bugLevel = 
+      sun.os.patch.level = unknown
+      user.country = US
+      user.language = en
+      user.timezone = Asia/Singapore
+  ---------------------------------------------------------------------------
+  
+
+[config 2014/12/03 19:02:30.318 SGT main tid=0x1] (msgTID=1 msgSN=1) ***** gfsh Environment ******
+  APP_COLLECTION_LIMIT=20
+   APP_FETCH_SIZE=1000
+   APP_LAST_EXIT_STATUS=0
+   APP_LOG_FILE=/Users/wangyi/vFabric/RTI-demo/streaming-spring/bin/gfsh-2014-12-03_19-02-29.log
+   APP_NAME=gfsh
+   APP_PWD=/Users/wangyi/vFabric/RTI-demo/streaming-spring/bin
+   APP_QUERY_RESULTS_DISPLAY_MODE=table
+   APP_QUIET_EXECUTION=false
+   SYS_CLASSPATH=/Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/gemfire.jar:/Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/antlr.jar:/Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/gfsh-dependencies.jar:/Applications/PivotalNetwork/Pivotal_GemFire_702_b45797/lib/pulse-dependencies.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/lib/tools.jar
+   SYS_GEMFIRE_DIR=/Applications/PivotalNetwork/Pivotal_GemFire_702_b45797
+   SYS_HOST_NAME=wangyi
+   SYS_JAVA_VERSION=1.8.0_25
+   SYS_OS=Mac OS X
+   SYS_OS_LINE_SEPERATOR=
+  
+   SYS_USER=wangyi
+   SYS_USER_HOME=/Users/wangyi
+
+[info 2014/12/03 19:02:30.323 SGT main tid=0x1] (msgTID=1 msgSN=2) Startup done in 0.811 seconds.
+
+[severe 2014/12/03 19:02:49.382 SGT Gfsh Launcher tid=0xb] (msgTID=11 msgSN=5) Locator at localhost:1099 did not respond. This is normal if the locator was shutdown. If it wasn't check its log for exceptions.
+java.io.EOFException: Locator at localhost:1099 did not respond. This is normal if the locator was shutdown. If it wasn't check its log for exceptions.
+	at com.gemstone.org.jgroups.stack.tcpserver.TcpClient.requestToServer(TcpClient.java:95)
+	at com.gemstone.org.jgroups.stack.tcpserver.TcpClient.requestToServer(TcpClient.java:70)
+	at com.gemstone.gemfire.management.internal.JmxManagerLocatorRequest.send(JmxManagerLocatorRequest.java:82)
+	at com.gemstone.gemfire.management.internal.cli.commands.ShellCommands.connectToLocator(ShellCommands.java:444)
+	at com.gemstone.gemfire.management.internal.cli.commands.ShellCommands.connect(ShellCommands.java:296)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.gemstone.gemfire.management.internal.cli.util.spring.ReflectionUtils.invokeMethod(ReflectionUtils.java:44)
+	at com.gemstone.gemfire.management.internal.cli.shell.GfshExecutionStrategy.execute(GfshExecutionStrategy.java:102)
+	at org.springframework.shell.core.AbstractShell.executeCommand(AbstractShell.java:223)
+	at com.gemstone.gemfire.management.internal.cli.shell.Gfsh.executeCommand(Gfsh.java:366)
+	at com.gemstone.gemfire.management.internal.cli.shell.Gfsh.promptLoop(Gfsh.java:782)
+	at org.springframework.shell.core.JLineShell.run(JLineShell.java:158)
+	at java.lang.Thread.run(Thread.java:745)
