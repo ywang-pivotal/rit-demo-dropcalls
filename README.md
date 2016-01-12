@@ -8,6 +8,7 @@
  ./tcruntime-instance.sh create demo
  ``` 
  * Enviroment variable $TOMCAT_HOME points to <b>TcServer Instlalation Path</b>/demo 
+ * $TOMCAT_HOME/demo/bin is in $PATH
 3. [GemFire 7 and above] (https://network.pivotal.io/products/pivotal-gemfire) 
  * Environment variable $GEMFIRE_HOME points to GemFire version
  * $GEMFIRE_HOME/bin is in $PATH
@@ -16,6 +17,15 @@
 ### Local Demo Setup
 ```shell
 git clone https://github.com/ywang-pivotal/rit-demo-dropcalls.git
+
+cd rit-demo-dropcalls
+
+cp rti-streaming-telco-demo-ui/build/libs/rti-streaming-telco-demo-ui.war $TOMCAT_HOME/demo/webapps
+tcruntime-instance.sh start
+
+sh streaming-spring/bin/start.sh 
+//(starts 1x locator 2x servers)
+
 ```
 
 
