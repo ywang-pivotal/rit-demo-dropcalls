@@ -26,6 +26,18 @@ tcruntime-instance.sh start
 sh streaming-spring/bin/start.sh 
 //(starts 1x locator 2x servers)
 
+sh streaming-spring-demo/bin/deploy.sh
+
 ```
+
+Open the browswer and key in http://localhost:8080/rti-telco-demo-ui/
+
+```shell
+sh streaming-spring-demo/bin/client.sh
+//use option 't' to load contracts
+//when completed use option 'c' to load calls
+```
+
+Go back to broswer to refresh the page. 
 
 
